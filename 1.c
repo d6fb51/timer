@@ -10,13 +10,13 @@ int main(void){
   for(int s=0;s!=-1;s++) {
   sleep(1);
   if(s==60){
-    m++;
-    s=0;
-            }
+      m++;
+      s=0;
+    }
     if(m==60){
-    h++;
-    m=0;
-}
+      h++;
+      m=0;
+    }
 printf("%2d:%2d:%2d\n",h,m,s);
 fflush(stdout);
 }
