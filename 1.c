@@ -1,9 +1,5 @@
 #include <stdio.h>
-
 #include <unistd.h>
-
-#include <time.h>
-
 int main(void){
   int m=0;
   int h=0;
