@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 int main(void){
-  int m=0;//minutes
-  int h=0;//hours
-  for(int s=0;s!=-1;s++) {//s is seconds
+  int m=0;                     //minutes
+  int h=0;                    //hours
+  for(int s=0;s!=-1;s++) {   //s is seconds
   sleep(1);
   if(s==60){
       m++;
